@@ -1,0 +1,283 @@
+[21-Nov-2023 22:31:13 Europe/Warsaw] Signature verification failed
+[21-Nov-2023 22:31:14 Europe/Warsaw] Signature verification failed
+[21-Nov-2023 22:31:14 Europe/Warsaw] Signature verification failed
+[21-Nov-2023 22:31:15 Europe/Warsaw] Signature verification failed
+[21-Nov-2023 22:31:15 Europe/Warsaw] Signature verification failed
+[21-Nov-2023 22:31:15 Europe/Warsaw] Signature verification failed
+[21-Nov-2023 22:31:15 Europe/Warsaw] Signature verification failed
+[21-Nov-2023 22:31:15 Europe/Warsaw] Signature verification failed
+[21-Nov-2023 22:31:21 Europe/Warsaw] Signature verification failed
+[21-Nov-2023 22:31:24 Europe/Warsaw] Signature verification failed
+[21-Nov-2023 22:48:24 Europe/Warsaw] Signature verification failed
+[21-Nov-2023 22:52:11 Europe/Warsaw] Signature verification failed
+[21-Nov-2023 22:52:51 Europe/Warsaw] Brak uprawnień do wykonywania operacji.
+[21-Nov-2023 22:52:56 Europe/Warsaw] Brak uprawnień do wykonywania operacji.
+[21-Nov-2023 22:53:32 Europe/Warsaw] Brak uprawnień do wykonywania operacji.
+[21-Nov-2023 22:54:30 Europe/Warsaw] Undefined index: secret (8 : C:\xampp\htdocs\server\vendor\tuupola\slim-jwt-auth\src\JwtAuthentication.php [319] )
+[21-Nov-2023 22:55:27 Europe/Warsaw] Brak uprawnień do wykonywania operacji.
+[21-Nov-2023 22:55:41 Europe/Warsaw] Signature verification failed
+[21-Nov-2023 22:55:48 Europe/Warsaw] Signature verification failed
+[21-Nov-2023 22:55:50 Europe/Warsaw] Signature verification failed
+[26-Nov-2023 08:40:27 Europe/Warsaw] Brak uprawnień do operacji
+[26-Nov-2023 09:14:11 Europe/Warsaw] Brak uprawnień do operacji
+[26-Nov-2023 09:17:02 Europe/Warsaw] Brak uprawnień do operacji
+[26-Nov-2023 09:17:11 Europe/Warsaw] Brak uprawnień do operacji
+[26-Nov-2023 09:18:17 Europe/Warsaw] Brak uprawnień do operacji
+[26-Nov-2023 09:18:24 Europe/Warsaw] Brak uprawnień do operacji
+[26-Nov-2023 09:18:43 Europe/Warsaw] Brak uprawnień do operacji
+[26-Nov-2023 10:59:45 Europe/Warsaw] Brak uprawnień do operacji
+[26-Nov-2023 10:59:48 Europe/Warsaw] Brak uprawnień do operacji
+[26-Nov-2023 10:59:49 Europe/Warsaw] Brak uprawnień do operacji
+[26-Nov-2023 10:59:50 Europe/Warsaw] Brak uprawnień do operacji
+[26-Nov-2023 10:59:50 Europe/Warsaw] Brak uprawnień do operacji
+[26-Nov-2023 11:00:25 Europe/Warsaw] Brak uprawnień do operacji
+[26-Nov-2023 11:02:04 Europe/Warsaw] Brak uprawnień do operacji
+[26-Nov-2023 11:02:07 Europe/Warsaw] Brak uprawnień do operacji
+[26-Nov-2023 11:13:43 Europe/Warsaw] Token not found.
+[26-Nov-2023 11:14:32 Europe/Warsaw] array_key_exists() expects parameter 2 to be array, null given (2 : C:\xampp\htdocs\server\src\JsonView\Controllers\OperationsController.php [79] )
+[26-Nov-2023 11:14:36 Europe/Warsaw] array_key_exists() expects parameter 2 to be array, null given (2 : C:\xampp\htdocs\server\src\JsonView\Controllers\OperationsController.php [79] )
+[26-Nov-2023 11:18:23 Europe/Warsaw] Brak uprawnień do operacji
+[26-Nov-2023 12:16:26 Europe/Warsaw] oci_execute(): ORA-00903: invalid table name
+[26-Nov-2023 12:17:19 Europe/Warsaw] oci_execute(): ORA-00904: &quot;NO&quot;: invalid identifier
+[26-Nov-2023 12:23:47 Europe/Warsaw] Undefined variable: userId (8 : C:\xampp\htdocs\server\src\App\Model\Operation\Operation.php [195] )
+[26-Nov-2023 12:24:40 Europe/Warsaw] oci_execute(): ORA-00904: &quot;NO&quot;: invalid identifier
+[26-Nov-2023 12:58:50 Europe/Warsaw] InvalidArgumentException: An empty user ID.
+[26-Nov-2023 12:59:18 Europe/Warsaw] Brak uprawnień do operacji
+[26-Nov-2023 12:59:27 Europe/Warsaw] Brak uprawnień do operacji
+[26-Nov-2023 12:59:27 Europe/Warsaw] Brak uprawnień do operacji
+[26-Nov-2023 12:59:28 Europe/Warsaw] Brak uprawnień do operacji
+[26-Nov-2023 13:00:05 Europe/Warsaw] Brak uprawnień do operacji
+[26-Nov-2023 13:00:05 Europe/Warsaw] Brak uprawnień do operacji
+[07-Dec-2023 19:39:41 Europe/Warsaw] PHP Fatal error:  Out of memory (allocated 2097152) (tried to allocate 12288 bytes) in C:\xampp\htdocs\server\vendor\slim\slim\Slim\Http\Request.php on line 350
+[07-Dec-2023 19:39:41 Europe/Warsaw] Expired token
+[09-Dec-2023 11:21:07 Europe/Warsaw] Expired token
+[09-Dec-2023 11:21:07 Europe/Warsaw] Expired token
+[12-Dec-2023 18:15:58 Europe/Warsaw] Token not found.
+[12-Dec-2023 18:15:58 Europe/Warsaw] Token not found.
+[12-Dec-2023 18:15:58 Europe/Warsaw] Token not found.
+[12-Dec-2023 19:07:57 Europe/Warsaw] Expired token
+[12-Dec-2023 20:17:11 Europe/Warsaw] Undefined variable: tokenData (8 : C:\xampp\htdocs\server\src\JsonView\Controllers\LoginController.php [106] )
+[12-Dec-2023 20:19:26 Europe/Warsaw] Undefined variable: tokenData (8 : C:\xampp\htdocs\server\src\JsonView\Controllers\LoginController.php [106] )
+[14-Dec-2023 17:39:28 Europe/Warsaw] Undefined variable: username (8 : C:\xampp\htdocs\server\src\App\Helpers\LoginHelper.php [195] )
+[14-Dec-2023 17:41:09 Europe/Warsaw] Undefined variable: username (8 : C:\xampp\htdocs\server\src\App\Helpers\LoginHelper.php [195] )
+[14-Dec-2023 17:41:35 Europe/Warsaw] Undefined variable: error (8 : C:\xampp\htdocs\server\src\JsonView\Controllers\LoginController.php [114] )
+[14-Dec-2023 17:42:01 Europe/Warsaw] Undefined variable: error (8 : C:\xampp\htdocs\server\src\JsonView\Controllers\LoginController.php [114] )
+[14-Dec-2023 17:42:03 Europe/Warsaw] Undefined variable: error (8 : C:\xampp\htdocs\server\src\JsonView\Controllers\LoginController.php [114] )
+[14-Dec-2023 17:42:04 Europe/Warsaw] Undefined variable: error (8 : C:\xampp\htdocs\server\src\JsonView\Controllers\LoginController.php [114] )
+[14-Dec-2023 17:42:04 Europe/Warsaw] Undefined variable: error (8 : C:\xampp\htdocs\server\src\JsonView\Controllers\LoginController.php [114] )
+[14-Dec-2023 17:42:04 Europe/Warsaw] Undefined variable: error (8 : C:\xampp\htdocs\server\src\JsonView\Controllers\LoginController.php [114] )
+[14-Dec-2023 17:42:35 Europe/Warsaw] Undefined variable: username (8 : C:\xampp\htdocs\server\src\App\Helpers\LoginHelper.php [195] )
+[14-Dec-2023 17:46:28 Europe/Warsaw] Undefined variable: user_id (8 : C:\xampp\htdocs\server\src\App\Model\User.php [57] )
+[14-Dec-2023 17:47:23 Europe/Warsaw] Undefined variable: user_id (8 : C:\xampp\htdocs\server\src\App\Model\User.php [57] )
+[14-Dec-2023 17:47:31 Europe/Warsaw] Undefined variable: user_id (8 : C:\xampp\htdocs\server\src\App\Model\User.php [57] )
+[14-Dec-2023 17:49:17 Europe/Warsaw] Undefined variable: user_id (8 : C:\xampp\htdocs\server\src\App\Model\User.php [57] )
+[14-Dec-2023 17:50:06 Europe/Warsaw] oci_fetch_all(): ORA-24374: define not done before fetch or execute and fetch
+[14-Dec-2023 17:51:22 Europe/Warsaw] oci_fetch_all(): ORA-24374: define not done before fetch or execute and fetch
+[14-Dec-2023 17:52:02 Europe/Warsaw] oci_fetch_all(): ORA-24374: define not done before fetch or execute and fetch
+[14-Dec-2023 17:52:09 Europe/Warsaw] oci_fetch_all(): ORA-24374: define not done before fetch or execute and fetch
+[14-Dec-2023 17:53:38 Europe/Warsaw] oci_fetch_all(): ORA-24374: define not done before fetch or execute and fetch
+[14-Dec-2023 17:53:46 Europe/Warsaw] oci_fetch_all(): ORA-24374: define not done before fetch or execute and fetch
+[14-Dec-2023 17:53:57 Europe/Warsaw] oci_fetch_all(): ORA-24374: define not done before fetch or execute and fetch
+[14-Dec-2023 17:57:01 Europe/Warsaw] oci_fetch_all(): ORA-24374: define not done before fetch or execute and fetch
+[14-Dec-2023 18:00:54 Europe/Warsaw] oci_fetch_all(): ORA-24374: define not done before fetch or execute and fetch
+[14-Dec-2023 18:00:56 Europe/Warsaw] oci_fetch_all(): ORA-24374: define not done before fetch or execute and fetch
+[14-Dec-2023 18:03:26 Europe/Warsaw] oci_fetch_all(): ORA-24374: define not done before fetch or execute and fetch
+[14-Dec-2023 18:04:30 Europe/Warsaw] oci_fetch_all(): ORA-24374: define not done before fetch or execute and fetch
+[14-Dec-2023 18:09:37 Europe/Warsaw] oci_execute(): ORA-00933: SQL command not properly ended
+[14-Dec-2023 18:10:42 Europe/Warsaw] oci_fetch_all(): ORA-24374: define not done before fetch or execute and fetch
+[14-Dec-2023 18:12:48 Europe/Warsaw] oci_fetch_all(): ORA-24374: define not done before fetch or execute and fetch
+[14-Dec-2023 18:12:58 Europe/Warsaw] oci_fetch_all(): ORA-24374: define not done before fetch or execute and fetch
+[14-Dec-2023 18:14:24 Europe/Warsaw] oci_fetch_all(): ORA-24374: define not done before fetch or execute and fetch
+[14-Dec-2023 18:14:40 Europe/Warsaw] oci_fetch_all(): ORA-24374: define not done before fetch or execute and fetch
+[14-Dec-2023 18:17:24 Europe/Warsaw] oci_execute(): ORA-00923: FROM keyword not found where expected
+[14-Dec-2023 18:18:07 Europe/Warsaw] oci_execute(): ORA-00923: FROM keyword not found where expected
+[14-Dec-2023 18:19:38 Europe/Warsaw] oci_fetch_all(): ORA-24374: define not done before fetch or execute and fetch
+[14-Dec-2023 18:20:26 Europe/Warsaw] oci_fetch_all(): ORA-24374: define not done before fetch or execute and fetch
+[14-Dec-2023 18:21:56 Europe/Warsaw] oci_fetch_all(): ORA-24374: define not done before fetch or execute and fetch
+[14-Dec-2023 18:22:43 Europe/Warsaw] oci_fetch_all(): ORA-24374: define not done before fetch or execute and fetch
+[14-Dec-2023 18:25:09 Europe/Warsaw] oci_fetch_all(): ORA-24374: define not done before fetch or execute and fetch
+[14-Dec-2023 18:37:12 Europe/Warsaw] Expired token
+[14-Dec-2023 18:37:25 Europe/Warsaw] Expired token
+[14-Dec-2023 18:40:14 Europe/Warsaw] Expired token
+[14-Dec-2023 18:42:35 Europe/Warsaw] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\server\src\App\Lib\Database.php on line 127
+[14-Dec-2023 18:42:53 Europe/Warsaw] oci_fetch_all(): ORA-24374: define not done before fetch or execute and fetch
+[14-Dec-2023 18:44:00 Europe/Warsaw] oci_parse(): ORA-01756: quoted string not properly terminated
+[14-Dec-2023 18:44:37 Europe/Warsaw] oci_fetch_all(): ORA-24374: define not done before fetch or execute and fetch
+[14-Dec-2023 18:45:24 Europe/Warsaw] oci_fetch_all(): ORA-24374: define not done before fetch or execute and fetch
+[14-Dec-2023 18:46:36 Europe/Warsaw] oci_fetch_all(): ORA-24374: define not done before fetch or execute and fetch
+[14-Dec-2023 18:47:48 Europe/Warsaw] oci_fetch_all(): ORA-24374: define not done before fetch or execute and fetch
+[14-Dec-2023 18:49:00 Europe/Warsaw] oci_fetch_all(): ORA-24374: define not done before fetch or execute and fetch
+[14-Dec-2023 18:49:10 Europe/Warsaw] oci_fetch_all(): ORA-24374: define not done before fetch or execute and fetch
+[14-Dec-2023 18:50:10 Europe/Warsaw] oci_fetch_all(): ORA-24374: define not done before fetch or execute and fetch
+[14-Dec-2023 18:51:21 Europe/Warsaw] oci_fetch_all(): ORA-24374: define not done before fetch or execute and fetch
+[14-Dec-2023 18:53:55 Europe/Warsaw] oci_fetch_all(): ORA-24374: define not done before fetch or execute and fetch
+[14-Dec-2023 18:54:58 Europe/Warsaw] oci_fetch_all(): ORA-24374: define not done before fetch or execute and fetch
+[14-Dec-2023 18:56:04 Europe/Warsaw] oci_fetch_all(): ORA-24374: define not done before fetch or execute and fetch
+[14-Dec-2023 18:57:05 Europe/Warsaw] oci_fetch_all(): ORA-24374: define not done before fetch or execute and fetch
+[14-Dec-2023 18:57:53 Europe/Warsaw] oci_fetch_all(): ORA-24374: define not done before fetch or execute and fetch
+[14-Dec-2023 18:57:59 Europe/Warsaw] oci_fetch_all(): ORA-24374: define not done before fetch or execute and fetch
+[14-Dec-2023 18:58:37 Europe/Warsaw] oci_fetch_all(): ORA-24374: define not done before fetch or execute and fetch
+[14-Dec-2023 18:59:07 Europe/Warsaw] oci_fetch_all(): ORA-24374: define not done before fetch or execute and fetch
+[14-Dec-2023 19:01:51 Europe/Warsaw] oci_fetch_all(): ORA-24374: define not done before fetch or execute and fetch
+[14-Dec-2023 19:04:19 Europe/Warsaw] oci_fetch_all(): ORA-24374: define not done before fetch or execute and fetch
+[14-Dec-2023 19:05:24 Europe/Warsaw] oci_fetch_all(): ORA-24374: define not done before fetch or execute and fetch
+[14-Dec-2023 19:05:41 Europe/Warsaw] oci_fetch_all(): ORA-24374: define not done before fetch or execute and fetch
+[14-Dec-2023 19:06:29 Europe/Warsaw] oci_fetch_all(): ORA-24374: define not done before fetch or execute and fetch
+[14-Dec-2023 19:07:53 Europe/Warsaw] Undefined variable: row (8 : C:\xampp\htdocs\server\src\App\Helpers\DbHelper.php [247] )
+[14-Dec-2023 21:38:02 Europe/Warsaw] Undefined variable: userId (8 : C:\xampp\htdocs\server\src\App\Helpers\LoginHelper.php [211] )
+[14-Dec-2023 21:38:46 Europe/Warsaw] Undefined variable: userId (8 : C:\xampp\htdocs\server\src\App\Model\User.php [70] )
+[14-Dec-2023 21:39:46 Europe/Warsaw] oci_execute(): ORA-01745: invalid host/bind variable name
+[14-Dec-2023 21:43:10 Europe/Warsaw] oci_execute(): ORA-01745: invalid host/bind variable name
+[14-Dec-2023 21:48:42 Europe/Warsaw] oci_execute(): ORA-01745: invalid host/bind variable name
+[14-Dec-2023 21:48:55 Europe/Warsaw] oci_execute(): ORA-01745: invalid host/bind variable name
+[27-Dec-2023 13:28:19 Europe/Warsaw] Undefined variable: thuis (8 : C:\xampp\htdocs\server\src\App\Model\Operation\ScreenElement.php [315] )
+[27-Dec-2023 13:28:47 Europe/Warsaw] RuntimeException: Wystąpił błąd. Nieznany rodzaj wyzwalacza (TEXTAREA).
+[27-Dec-2023 13:32:17 Europe/Warsaw] RuntimeException: Wystąpił błąd. Nieznany rodzaj wyzwalacza (TOOLTIP).
+[27-Dec-2023 13:33:08 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[27-Dec-2023 13:35:57 Europe/Warsaw] RuntimeException: Wystąpił błąd. Nieznany rodzaj wyzwalacza (TOOLTIP).
+[27-Dec-2023 13:36:54 Europe/Warsaw] RuntimeException: Wystąpił błąd. Nieznany rodzaj wyzwalacza (TOOLTIP).
+[27-Dec-2023 14:16:42 Europe/Warsaw] Expired token
+[27-Dec-2023 14:16:44 Europe/Warsaw] Expired token
+[27-Dec-2023 14:16:46 Europe/Warsaw] Expired token
+[27-Dec-2023 14:16:48 Europe/Warsaw] Expired token
+[27-Dec-2023 14:35:49 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[27-Dec-2023 14:36:26 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[27-Dec-2023 14:39:50 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[27-Dec-2023 14:39:52 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[27-Dec-2023 15:15:38 Europe/Warsaw] Expired token
+[27-Dec-2023 15:15:39 Europe/Warsaw] Expired token
+[27-Dec-2023 15:15:41 Europe/Warsaw] Expired token
+[27-Dec-2023 15:15:48 Europe/Warsaw] Brak uprawnień do wykonywania operacji.
+[27-Dec-2023 15:15:51 Europe/Warsaw] array_key_exists() expects parameter 2 to be array, null given (2 : C:\xampp\htdocs\server\src\JsonView\Controllers\OperationsController.php [79] )
+[27-Dec-2023 15:16:18 Europe/Warsaw] array_key_exists() expects parameter 2 to be array, null given (2 : C:\xampp\htdocs\server\src\JsonView\Controllers\OperationsController.php [79] )
+[27-Dec-2023 15:16:38 Europe/Warsaw] Brak uprawnień do wykonywania operacji.
+[27-Dec-2023 15:16:41 Europe/Warsaw] array_key_exists() expects parameter 2 to be array, null given (2 : C:\xampp\htdocs\server\src\JsonView\Controllers\OperationsController.php [79] )
+[27-Dec-2023 15:16:44 Europe/Warsaw] Brak uprawnień do wykonywania operacji.
+[27-Dec-2023 15:16:44 Europe/Warsaw] InvalidArgumentException: An empty user ID.
+[27-Dec-2023 15:16:44 Europe/Warsaw] InvalidArgumentException: An empty user ID.
+[27-Dec-2023 15:16:48 Europe/Warsaw] InvalidArgumentException: An empty user ID.
+[27-Dec-2023 15:16:48 Europe/Warsaw] InvalidArgumentException: An empty user ID.
+[27-Dec-2023 15:25:51 Europe/Warsaw] Niepoprawny ekran: [CHOICE_ACTION] dla operacji: UPSERT_USER
+[10-Jan-2024 18:47:52 Europe/Warsaw] Brak uprawnień do wykonywania operacji.
+[10-Jan-2024 18:48:20 Europe/Warsaw] Brak uprawnień do wykonywania operacji.
+[10-Jan-2024 18:48:37 Europe/Warsaw] Brak uprawnień do wykonywania operacji.
+[10-Jan-2024 18:49:32 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[10-Jan-2024 18:49:34 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[10-Jan-2024 18:49:34 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[10-Jan-2024 18:49:35 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[10-Jan-2024 18:49:37 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[10-Jan-2024 18:49:57 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[10-Jan-2024 19:03:55 Europe/Warsaw] InvalidArgumentException: An empty user ID.
+[10-Jan-2024 19:10:35 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[10-Jan-2024 19:10:53 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[18-Jan-2024 18:02:38 Europe/Warsaw] InvalidArgumentException: An empty user ID.
+[18-Jan-2024 18:42:00 Europe/Warsaw] Expired token
+[18-Jan-2024 18:53:06 Europe/Warsaw] InvalidArgumentException: An empty user ID.
+[18-Jan-2024 19:10:55 Europe/Warsaw] Brak uprawnień do wykonywania operacji.
+[18-Jan-2024 19:12:32 Europe/Warsaw] Brak uprawnień do wykonywania operacji.
+[18-Jan-2024 19:12:49 Europe/Warsaw] Brak uprawnień do wykonywania operacji.
+[18-Jan-2024 19:12:59 Europe/Warsaw] InvalidArgumentException: An empty user ID.
+[18-Jan-2024 19:13:07 Europe/Warsaw] InvalidArgumentException: An empty user ID.
+[18-Jan-2024 19:13:14 Europe/Warsaw] Brak uprawnień do wykonywania operacji.
+[18-Jan-2024 19:13:21 Europe/Warsaw] InvalidArgumentException: An empty user ID.
+[18-Jan-2024 19:15:32 Europe/Warsaw] Brak uprawnień do wykonywania operacji.
+[18-Jan-2024 19:15:41 Europe/Warsaw] InvalidArgumentException: An empty user ID.
+[18-Jan-2024 19:17:00 Europe/Warsaw] Brak uprawnień do wykonywania operacji.
+[18-Jan-2024 19:17:14 Europe/Warsaw] Brak uprawnień do wykonywania operacji.
+[16-Feb-2024 18:07:00 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[16-Feb-2024 18:07:03 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[16-Feb-2024 18:07:03 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[16-Feb-2024 18:08:17 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[16-Feb-2024 18:08:18 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[16-Feb-2024 18:09:08 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[16-Feb-2024 18:13:10 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[16-Feb-2024 18:13:10 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[16-Feb-2024 18:13:16 Europe/Warsaw] Token not found.
+[16-Feb-2024 18:14:14 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[16-Feb-2024 18:15:41 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[16-Feb-2024 18:16:03 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[16-Feb-2024 18:19:11 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[16-Feb-2024 18:24:28 Europe/Warsaw] InvalidArgumentException: An empty user ID.
+[16-Feb-2024 19:23:22 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[16-Feb-2024 19:23:30 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[16-Feb-2024 19:23:30 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 18:14:50 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 18:15:00 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 18:15:34 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 18:15:46 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 18:17:06 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 18:17:37 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 18:17:47 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 18:18:39 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 18:19:10 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 18:24:38 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 18:28:22 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 18:34:01 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 18:34:52 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 18:35:55 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 18:36:11 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 18:37:02 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 18:37:26 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 18:41:36 Europe/Warsaw] oci_execute(): ORA-00923: FROM keyword not found where expected
+[22-Feb-2024 18:42:12 Europe/Warsaw] oci_execute(): ORA-00923: FROM keyword not found where expected
+[22-Feb-2024 18:43:57 Europe/Warsaw] oci_execute(): ORA-00923: FROM keyword not found where expected
+[22-Feb-2024 18:44:33 Europe/Warsaw] oci_execute(): ORA-00923: FROM keyword not found where expected
+[22-Feb-2024 18:48:25 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 18:51:48 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 18:57:37 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 18:58:12 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 18:59:08 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 19:01:01 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 19:05:00 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 19:06:56 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 19:07:23 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 19:07:25 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 19:07:28 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 19:07:48 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 19:09:26 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 19:11:24 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 19:13:37 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 19:14:10 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 19:15:49 Europe/Warsaw] strtoupper() expects exactly 1 parameter, 2 given (2 : C:\xampp\htdocs\server\src\App\Model\Operation\ScreenElement.php [317] )
+[22-Feb-2024 19:16:51 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 19:17:52 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 19:24:56 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 19:26:42 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 19:26:52 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 19:26:52 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 19:26:52 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 19:26:53 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 19:28:06 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 19:28:07 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 19:28:08 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 19:28:08 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 19:28:08 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 19:28:08 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 19:28:38 Europe/Warsaw] Undefined variable: operation (8 : C:\xampp\htdocs\server\src\JsonView\Controllers\OperationsController.php [77] )
+[22-Feb-2024 19:28:51 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 19:29:25 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 19:29:26 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 19:30:05 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 19:30:23 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 19:31:33 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 19:31:33 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 19:32:30 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 19:33:00 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 19:33:27 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 19:33:55 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 19:34:10 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 19:34:36 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 19:34:37 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[22-Feb-2024 19:35:53 Europe/Warsaw] oci_execute(): ORA-00907: missing right parenthesis
+[25-Feb-2024 10:22:30 Europe/Warsaw] Expired token
+[25-Feb-2024 10:22:30 Europe/Warsaw] Expired token
+[25-Feb-2024 11:04:27 Europe/Warsaw] oci_execute(): ORA-00936: missing expression
+[25-Feb-2024 11:30:15 Europe/Warsaw] Token not found.
+[25-Feb-2024 11:30:49 Europe/Warsaw] Token not found.
+[25-Feb-2024 11:32:23 Europe/Warsaw] Token not found.
+[25-Feb-2024 11:33:41 Europe/Warsaw] Token not found.
+[25-Feb-2024 11:33:49 Europe/Warsaw] Token not found.
+[25-Feb-2024 11:35:04 Europe/Warsaw] Token not found.
+[25-Feb-2024 11:35:07 Europe/Warsaw] Token not found.
+[25-Feb-2024 11:37:31 Europe/Warsaw] Expired token
+[25-Feb-2024 11:37:32 Europe/Warsaw] Expired token

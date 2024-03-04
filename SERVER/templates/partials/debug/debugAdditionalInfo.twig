@@ -1,0 +1,61 @@
+
+	<div class="debug">
+	    <table>
+	        <thead>
+	            <tr>
+	                <th colspan="2">Dodatkowe info:</th>
+	            </tr>
+	        </thead>
+	
+	        <tbody>
+				{% if operation.active_element_name %}
+	            <tr>
+	                <td>aktywne_pole</td>
+	                <td>{{ operation.active_element_name }}</td>
+	            </tr>
+	            {% endif %}
+				
+				{% if operation.app_error %}
+	            <tr>
+	                <td>Błąd</td>
+	                <td>{{ operation.app_error.message }}</td>
+	            </tr>
+				{% endif %}
+				
+				{% if operation.error %}
+	            <tr>
+	                <td>Błąd ekranu</td>
+	                <td>{{ operation.error }}</td>
+	            </tr>
+				{% endif %}
+	
+				{% if operation.go_to_screen_name %}
+	            <tr>
+	                <td>idz_do_ekr</td>
+	                <td>{{ operation.go_to_screen_name }}</td>
+	            </tr>
+				{% endif %}
+	
+				{% if operation.is_new_screen %}
+	            <tr>
+	                <td>Czy nowy ekran</td>
+	                <td>{{ operation.is_new_screen }}</td>
+	            </tr>
+				{% endif %}
+	
+				{% if operation.printer_ip %}
+	            <tr>
+	                <td>Adres IP drukarki</td>
+	                <td>{{ operation.printer_ip }}</td>
+	            </tr>
+				{% endif %}
+	
+				{% if operation.printer_port %}
+	            <tr>
+	                <td>Port drukarki</td>
+	                <td>{{ operation.printer_port }}</td>
+	            </tr>
+				{% endif %}
+	        </tbody>
+	    </table>
+	</div>

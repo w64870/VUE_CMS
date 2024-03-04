@@ -1,0 +1,88 @@
+{% extends "base.twig" %}
+
+{% block title %}
+    {{ page_title }}
+{% endblock %}
+
+{% block content %}
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+
+    <tr>
+        <td align="center">
+
+            <table id="id_table_container">
+            
+            	{% if screen.app_error or screen.error %}
+				    <tr>
+					    <td>
+					    {% include 'partials/messages/error.twig' %}	
+					    </td>
+				    </tr>
+				{% endif %}
+
+                {% for row in screen.window_screen_elements %} 
+	                	
+            		{% for element in row.first_elements %} 
+        			<tr>
+            			<td>
+        				{% include 'partials/screenElement.twig' %}
+        				</td>
+        			</tr>
+            		{% endfor %}
+            		
+            		<tr>
+                		<td>
+                			<table>
+                				<tr>
+		                			{% for element in row.middle_elements %} 
+	                				<td>
+	                				{% include 'partials/screenElement.twig' %}	
+	                				</td>
+		                			{% endfor %}
+            					</tr>
+            				</table>
+            			</td>
+            		</tr>
+            		
+            		{% for element in row.last_elements %} 
+        			<tr>
+            			<td>
+        				{% include 'partials/screenElement.twig' %}
+        				</td>
+        			</tr>
+            		{% endfor %}
+	                		
+            	{% endfor %}  
+
+                <tr>
+                    <td>
+
+                        <table border="0" width="100%" cellspacing="0" cellpadding="0">
+
+                            <tr><td>&nbsp</td></tr>
+
+                            <tr>
+                                <td align="center">
+                                    <button class="menu_button" onclick="return quit();">Zamknij</button>
+                                </td>
+                            </tr>
+
+                        </table>
+
+                    </td>
+                </tr>
+
+
+ 				{% if screen.version %}
+                <tr>
+                    <td class="small_text">Wersja operacji: {{ screen.version }}</td>
+                </tr>
+                {% endif %}
+
+            </table>
+
+        </td>
+    </tr>
+
+</table>
+{% endblock %}

@@ -1,0 +1,48 @@
+
+	{% if error %}
+	<div class="div_error_box div_error_danger menu_error">
+	    <div class="div_error_content">
+	        {{ error.message }}    
+	    </div>
+	</div>
+	{% endif %}
+
+
+	{% if operation.app_error or screen.app_error %}
+	<div class="div_error_box div_error_danger">
+	    <div class="div_error_exit_box">
+	    
+	    	{% if isMobileScanner %}
+	    	<input type="submit" class="input_error_exit" name="" value="X">
+	    	{% else %}
+	    	<button class="input_error_exit">
+	            <img class="img_error_exit" src="{{ base_url() }}/images/cms_announcement_exit.png" alt="X">
+	        </button>
+	    	{% endif %}
+	
+	    </div>
+	    <div class="div_error_content">
+	        {{ operation.app_error.message }}{{ screen.app_error.message }}    
+	    </div>
+	</div>
+	{% endif %}
+	
+	
+	{% if operation.error or screen.error %}
+	<div class="div_error_box div_error_warning">
+	    <div class="div_error_exit_box">
+	    
+	    	{% if isMobileScanner %}
+	    	<input type="submit" class="input_error_exit" name="" value="X">
+	    	{% else %}
+	    	<button class="input_error_exit">
+	            <img class="img_error_exit" src="{{ base_url() }}/images/cms_announcement_exit.png" alt="X">
+	        </button>
+	    	{% endif %}
+	
+	    </div>
+	    <div class="div_error_content">
+	        {{ operation.error }}{{ screen.error }}    
+	    </div>
+	</div>
+	{% endif %}

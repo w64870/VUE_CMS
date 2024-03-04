@@ -1,0 +1,30 @@
+
+	<span 
+		id="{{ element.idAttribute }}" 
+		class="clock {{ element.classAttribute }}"
+    	style="{{ element.styleAttribute }}"
+    	{{ element.otherAttributes|raw  }} 
+    ></span>
+    
+    <script>
+        function isEmpty(str) {
+            return (!str || 0 === str.length);
+        }
+
+        var datetimeFormat = '{{ element.formats.datetimeFormat }}';
+        var spanId = '{{ element.idAttribute }}';
+
+        var datetime = moment().format(datetimeFormat);
+        document.getElementById(spanId).innerHTML = datetime;
+        //console.log(datetime);
+
+        $(function() {
+
+            var currentDateSpan = $('#' + spanId);
+
+            setInterval(function() {
+                var datetime = moment().format(datetimeFormat);
+                currentDateSpan.html(datetime);
+            }, 1000);
+        });
+    </script>

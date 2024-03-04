@@ -1,0 +1,73 @@
+.mes-container {
+  border: 1px solid #0066cc;
+  border-radius: 0.25rem;
+}
+
+table.mes-tab1 {
+    width: 100%;
+    border: 1px solid #0066cc;
+    border-radius: 0.25rem;
+    border-spacing: 0;
+    border-collapse: separate;
+
+    text-align: center;
+    font-family: Verdana;
+    font-weight: normal;
+    font-size: 12px;
+    color: #212529;
+    background-color: #fff;
+}
+
+.mes-tab1 tr:first-child th, .mes-tab1 tr:first-child td {
+  border-top: 0;
+}
+.mes-tab1 tr th:first-child, .mes-tab1 tr td:first-child {
+  border-left: 0;
+}
+.mes-tab1 tr:last-child th, .mes-tab1 tr:last-child td {
+  border-bottom: 0;
+}
+.mes-tab1 tr th:last-child, .mes-tab1 tr td:last-child {
+  border-right: 0;
+}
+
+.mes-tab1 th, .mes-tab1 td {
+    text-align: center;
+}
+
+.mes-tab1 th {
+    background-color: #cce6ff;
+    border-top: 1px solid #0066cc;
+    border-bottom: 1px solid #0066cc;
+}
+
+.mes-tab1 td {
+    border: 1px solid #dee2e6;
+}
+
+.mes-tab1 td:hover {
+    background-color: #ececec;
+}
+
+th.mes-nag1 {
+    background-color: #4da6ff;
+    border: 1px #0066cc solid;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+}
+
+th.mes-img, td.mes-img {
+	background-color: #fff;
+}
+
+td.mes-highlight {
+    background-color: #ffb84d;
+    border: 1px solid orange;
+}
+
+td.mes-highlight:hover {
+  background-color: #ffdb4d;
+}

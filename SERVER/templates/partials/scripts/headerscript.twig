@@ -1,0 +1,61 @@
+
+	<script>
+	
+	    // aktywne pole
+	    function handleActiveElement() {
+	    
+		    {% if operation.active_form_name and operation.active_element_id %}     
+				document.{{ operation.active_form_name }}.{{ operation.active_element_id }}.focus();
+			    document.{{ operation.active_form_name }}.{{ operation.active_element_id }}.select();   
+		    {% endif %}
+		    
+	    }
+	
+	    // domyślny przycisk
+		{% if operation.active_form_name and operation.default_element_id %}
+	    	if (document.addEventListener) {
+				//DOM Level 2 ' .
+	       		document.addEventListener("keyup", handleEnter, true);
+	       	} else if (document.attachEvent) {
+	       		//IE 5+ ' .
+	       		document.attachEvent("onkeyup", handleEnter);
+	       	} else { 
+	       		//IE 4 :‑( 
+	       		// document.onkeyup = handleEnter;
+	       	}
+	
+	        function handleEnter(ev) {
+	        	if (!ev) { ev = window.event }; 
+	        	if (ev.keyCode === 13) {
+	        		document.{{ operation.active_form_name }}.{{ operation.default_element_id }}.click();
+	        	}
+	        	if (e.stopPropagation) { e.stopPropagation(); }  //DOM Level 2
+	         	else { e.cancelBubble = true; }  //IE 
+	        }
+		{% endif %}
+	
+		// nowe okno
+	    function handleNewWindow() {
+	    	{% if operation.nw_id %}
+		        newWindowUrl = '{{ base_url() }}/screen/{{ operation.nw_id }}';
+		        name = ""; 
+		       	specs = "";
+		       	
+		        if( {{ operation.nw_new_tab ? 'true' : 'false' }} === false) {
+		        	name = ""; 
+		        	specs = "height=window.innerHeight,width=window.innerWidth";
+		        }
+
+		        window.open(newWindowUrl, name, specs);
+		                          
+		    {% endif %}
+	    }
+	
+	    // ONLOAD
+		window.onload = function() {
+	    	handleActiveElement();
+			handleNewWindow();
+		}
+	   
+	</script>
+	

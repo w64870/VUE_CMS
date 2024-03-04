@@ -1,0 +1,36 @@
+<div>
+	<div style="margin-top: 1em">Debug info</div>
+	<table border="0" width="100%" cellspacing="0" cellpadding="0">
+		<tr>
+	    	<td class="debug">Wybrany kontekst: {{ context }}</td>
+	    </tr>
+		<tr>
+	    	<td class="debug">Wybrana operacja: {{ operation.operation_id }}</td>
+	    </tr>
+	    <tr>
+	    	<td>
+	    		{% include 'partials/debug/debugDbInfo.twig' %}
+	    	</td>
+	    </tr>
+	    <tr>
+	    	<td>
+	    		{% include 'partials/debug/debugVariables.twig' %}
+	    	</td>
+	    </tr>
+	    <tr>
+	    	<td>
+	    		{% include 'partials/debug/debugFormVariables.twig' %}
+	    	</td>
+	    </tr>
+	    <tr>
+	    	<td>
+	    		{% include 'partials/debug/debugAdditionalInfo.twig' %}
+	    	</td>
+	    </tr>
+	    <tr>
+	    	<td>
+	    		{% include 'partials/debug/debugSqlQueries.twig' %}
+	    	</td>
+	    </tr>
+	</table>
+</div>

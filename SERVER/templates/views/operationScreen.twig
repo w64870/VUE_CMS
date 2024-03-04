@@ -1,0 +1,105 @@
+{% extends "base.twig" %}
+
+{% block title %}
+    {{ page_title }}
+{% endblock %}
+
+{% block headerScripts %}
+    {% include 'partials/scripts/headerscript.twig' %}
+{% endblock %}
+
+
+{% block content %}
+<table border="0" width="100%" cellspacing="0" cellpadding="0">        
+    <tr>
+        <td align="center">
+
+            <table id="id_table_container">
+                <form id="screen-form" action="{{ operation_url }}/{{ operation.operation_id }}" name="akcje_form" method="post">
+
+                    <input type="hidden" name="previous_operation_id" value="{{ operation.operation_id }}">
+                    <input type="hidden" name="previous_screen_id" value="{{ operation.screen_id }}">
+                    <input type="hidden" name="previous_screen_name" value="{{ operation.screen_name }}">
+                    	
+                    	{% if operation.app_error or operation.error %}
+					    <tr>
+						    <td>
+						    {% include 'partials/messages/error.twig' %}	
+						    </td>
+					    </tr>
+						{% endif %}
+                	
+	                	{% for row in operation.screen_elements %} 
+	                	
+	                		{% for element in row.first_elements %} 
+                			<tr>
+                    			<td>
+                				{% include 'partials/screenElement.twig' %}
+                				</td>
+                			</tr>
+	                		{% endfor %}
+	                		
+	                		<tr>
+                        		<td>
+                        			<table>
+                        				<tr>
+				                			{% for element in row.middle_elements %} 
+			                				<td>
+			                				{% include 'partials/screenElement.twig' %}	
+			                				</td>
+				                			{% endfor %}
+	                					</tr>
+	                				</table>
+	                			</td>
+                    		</tr>
+	                		
+	                		{% for element in row.last_elements %} 
+                			<tr>
+                    			<td>
+                				{% include 'partials/screenElement.twig' %}
+                				</td>
+                			</tr>
+	                		{% endfor %}
+	                		
+	                	{% endfor %}
+                
+
+			                <tr>
+			                    <td>
+			                        <table border="0" width="100%" cellspacing="0" cellpadding="0">
+			                            <tr><td>&nbsp</td></tr>
+			                            <tr>
+							                {% if operation.logout_enabled %}
+							                <td align="center">
+			                                    <a class="menu_link" href="{{ logout_url }}">Wyloguj</a>
+			                                </td>
+							                {% endif %}
+							                
+							                {% if operation.operations_enabled %}
+							                <td align="center">
+			                                    <a class="menu_link" href="{{ menu_url }}">Operacje</a>
+			                                </td>
+							                {% endif %}
+			                            </tr>
+			                        </table>
+			
+			                    </td>
+			                </tr>
+			                
+			                {% if operation.version %}
+			                <tr>
+			                    <td class="small_text">Wersja operacji: {{ operation.version }}</td>
+			                </tr>
+			                {% endif %}
+                </form>
+            </table>
+
+        </td>
+    </tr>
+</table>
+
+{% if operation.is_debug_mode %}
+	{% include 'partials/debugInfo.twig' %}
+{% endif %}
+
+{% endblock %}

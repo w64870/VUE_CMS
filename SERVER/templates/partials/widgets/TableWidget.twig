@@ -1,0 +1,97 @@
+
+	<table class="tabela_wyboru" cellspacing="0" cellpadding="0">
+        <thead>
+            <tr>
+                <th class="table-heading">
+                	{% if element.type == 'TABELA_CHECKBOX' or element.type == 'ATTACHMENT_CHECKBOX_TABLE' %}
+                    <label class="table-heading">
+                        <input
+                            type="checkbox"
+                            class="checkbox"
+                            name="{{ element.nameAttribute }}"
+                            onclick="selectAllTableCheckboxes(this);"
+                        >
+                    </label>
+                    {% set headerClick = "tableHeaderCheckboxClick(this);" %}
+                    {% endif %}
+                </th>
+                
+                {% for header in element.content.headers %}  
+               		{% if header != 'id_g' %}
+                	<th class="table-heading" onclick={{ headerClick }}>{{ header|initcap  }}</th>
+					{% endif %}
+                {% endfor %}
+                
+                {% if element.tableAttachments|length > 0 %}
+                <th class="table-heading">Załączniki</th>
+                {% endif %}
+            </tr>
+        </thead>
+        
+        <tbody>
+        	{% for i, row in element.content.rows %}
+        	
+        	{% if i%2 == 0 %}
+            <tr class="even_row">
+            {% else %}
+            <tr class="odd_row">
+            {% endif %}
+            
+            	{% if element.type == 'TABELA_CHECKBOX' or element.type == 'ATTACHMENT_CHECKBOX_TABLE' %}
+                <td>
+                    <label class="">
+                        <input
+                            type="checkbox"
+                            class="checkbox"
+                            name="{{ element.nameAttribute }}[]"
+                            value="{{ row.id_g }}"
+                            onclick=""
+                        >
+                    </label>
+                </td>
+                {% set cellClick = "tableCheckboxClick(this);" %}
+                {% elseif element.type == 'TABELA' or element.type == 'ATTACHMENT_RADIO_TABLE' %}
+                <td>
+                    <label class="">
+                        <input
+                            type="radio"
+                            class="checkbox"
+                            name="{{ element.nameAttribute }}"
+                            value="{{ row.id_g }}"
+                            onclick="submitForm();"
+                        >
+                    </label>
+                </td>
+                {% set cellClick = "tableRadioClick(this);" %}
+                {% endif %}
+                
+                {% for key, value in row %}
+                	{% if key != 'id_g' %}
+                    <td class="table-cell" onclick={{ cellClick }}>{{ value|sbtoab|raw }}</td>
+                    {% endif %}
+                {% endfor %}
+                
+                {% if element.tableAttachments|length > 0 %}
+                <td>
+                    <table class="table_attachements_table">
+                    	{% for key, attachment in element.tableAttachments[i] %}
+                        <tr>
+                            <td class="table_attachements_cell">
+                                <a
+                                    id="{{ attachment.id }}"
+                                    href="{{ attachment.path }}"
+                                    target="_blank"
+                                >
+                                	{{ attachment.name }}
+                                </a>
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </table>
+                </td>
+                {% endif %}
+                
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>

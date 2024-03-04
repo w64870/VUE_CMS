@@ -1,0 +1,37 @@
+
+	<div class="debug">
+	    <table>
+	        <thead>
+	            <tr><th colspan="3">Zmienne</th></tr>
+	            <tr>
+	                <th>Zmienna</th>
+	                <th>Wartość</th>
+	                <th>Rodzaj</th>
+	            </tr>
+	        </thead>
+	
+	        <tbody>
+				{% for element in operation.screen_elements_debug %}    
+	            <tr>
+	                <td>{{ element.key }}</td>
+	                <td>{{ element.value }}</td>
+	                <td>{{ element.type }}</td>
+	            </tr>
+	            {% endfor %}
+	            {% for key, element in operation.screen_elements_debug %}
+	            	{% if element.executionTime|length > 0 %}
+	            		<tr>
+                            <th>czas wykonania zapytań: {{ element.key }}:</th>
+                        </tr>
+                        {% for exectime in operation.element.executionTime %}
+                        	<td>
+                                <br>
+                                {{ exectime.SQL }} => {{ exectime.czas }}
+                                <br>
+                            </td>
+                        {% endfor %}
+	            	{% endif %}
+	            {% endfor %}
+	        </tbody>
+	    </table>
+	</div>

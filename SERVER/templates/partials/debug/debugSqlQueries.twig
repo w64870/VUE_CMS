@@ -1,0 +1,21 @@
+
+	<div class="debug">
+	    <table>
+			<thead>
+		        <tr>
+		            <th>Zapytania SQL wysłane do bazy danych:</th>
+		        </tr>
+	        </thead>
+	        
+	        <tbody>
+				{% for query in operation.sql_queries %}    
+			        <tr>
+			            <td>
+			            	<pre>{{ query }}</pre>
+			            </td>
+			        </tr>
+				{% endfor %}
+			</tbody>
+	    </table>
+	</div>
+

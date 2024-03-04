@@ -1,0 +1,16 @@
+
+    <select
+    	id="{{ element.idAttribute }}"
+    	name="{{ element.nameAttribute }}" 
+    	tabindex="{{ element.tabIndex }}" 
+        class="lista {{ element.classAttribute }}"
+        style="{{ element.styleAttribute }}"
+        required="{{ element.minLength > 0 }}"
+        {{ element.otherAttributes|raw  }} 
+    >
+    	{% for row in element.content.rows %}
+        <option value="{{ row.id }}" style="{{ row.css }}" {% if row.id == element.value %} selected {% endif %}>
+        	{{ row.opis }}
+        </option>
+        {% endfor %}
+    </select>

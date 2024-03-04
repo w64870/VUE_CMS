@@ -1,0 +1,10 @@
+var CONFIG = {
+    baseUrl: "/cms",
+    fallbackUrl: "http://localhost/server/public/",
+    defaultCmsApi: {
+    	name: "DEV",
+    	url: "http://localhost/server/api/v4/"
+    },
+    AutoComplete: "on",
+    CmsApiList: []
+}

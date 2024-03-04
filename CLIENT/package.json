@@ -1,0 +1,81 @@
+{
+  "name": "cms-web-client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --mode development.web",
+    "build": "vue-cli-service build --mode production.web",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@amcharts/amcharts4": "^4.8.0",
+    "@babel/polyfill": "^7.8.3",
+    "@chenfengyuan/vue-qrcode": "^1.0.2",
+    "@fortawesome/fontawesome-svg-core": "^1.2.26",
+    "@fortawesome/free-solid-svg-icons": "^5.12.0",
+    "@fortawesome/vue-fontawesome": "^0.1.9",
+    "bootstrap": "^4.4.1",
+    "bootstrap-vue": "^2.2.2",
+    "core-js": "^2.6.11",
+    "md5": "^2.3.0",
+    "detect-browser": "^4.8.0",
+    "isomorphic-fetch": "^2.2.1",
+    "jquery": "^3.4.1",
+    "luxon": "^1.21.3",
+    "nexe": "^3.3.2",
+    "reconnecting-websocket": "^4.2.0",
+    "vee-validate": "^2.2.15",
+    "vue": "^2.6.11",
+    "vue-cookies": "^1.6.1",
+    "vue-datetime": "^1.0.0-beta.11",
+    "vue-resource": "^1.5.1",
+    "vue-router": "^3.1.5",
+    "vue-simple-spinner": "^1.2.10",
+    "vuex": "^3.1.2",
+    "weekstart": "^1.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "@babel/traverse": "^7.8.3",
+    "@vue/cli-plugin-babel": "^3.12.1",
+    "@vue/cli-plugin-eslint": "^3.12.1",
+    "@vue/cli-service": "^3.12.1",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.0.6",
+    "copy-webpack-plugin": "^5.1.1",
+    "css-loader": "^3.4.2",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "node-sass": "^4.13.1",
+    "rimraf": "^2.7.1",
+    "string-replace-loader": "^2.1.1",
+    "style-loader": "^0.23.1",
+    "vue-loader": "^15.8.3",
+    "vue-template-compiler": "^2.6.11",
+    "webpack-cli": "^3.3.10"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "last 2 versions",
+    "not ie <= 9"
+  ]
+}

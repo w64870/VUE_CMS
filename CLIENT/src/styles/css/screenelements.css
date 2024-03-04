@@ -1,0 +1,164 @@
+.etykieta {
+    color: black;
+    font-size: 18pt;
+    font-family: Verdana, Arial;
+    text-decoration: none;
+    word-wrap: break-word;
+    margin: 0.25em 0 0 0;
+}
+
+.pole_tekstowe {
+    width: 100%;
+    font-size: 18pt;
+    border: 1px solid #E3E3E3;
+    border-radius: 0.25em;
+    padding: 0.25em;
+    vertical-align: middle;
+    margin: 0.25em auto;
+    text-align: left;
+}
+
+.pole_tekstowe:hover {
+    border: 1px solid #000;
+}
+
+.lista {
+    width: 100%;
+    color: black;
+    font-size: 18pt;
+    font-family: Verdana, Arial;
+    text-decoration: none;
+    border: 1px solid #e3e3e3;
+    padding-left: 0.25em;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    vertical-align: middle;
+    margin: 0.25em auto;
+    text-align: left;
+}
+
+.lista:hover {
+    border: 1px solid #000;
+}
+
+.przycisk {
+    width: 100%;
+    background: #3396ff;
+    border: 1px solid #e3e3e3;
+    border-radius: 0.25em;
+    font-size: 18pt;
+    padding: 0.25em;
+    vertical-align: middle;
+    margin: 0.25em auto;
+}
+
+.data {
+    text-align: center;
+}
+
+.liczba {
+    width: 100%;
+    font-size: 18pt;
+    border: 1px solid #E3E3E3;
+    border-radius: 0.25em;
+    padding: 0.25em;
+    vertical-align: middle;
+    margin: 0.25em auto;
+    text-align: right;
+}
+
+.liczba:hover {
+    border: 1px solid #000;
+}
+
+.checkbox-image {
+    width: 18pt;
+    height: 18pt;
+    vertical-align: baseline;
+}
+
+.clock {
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+.clock-div {
+    min-height: 32px;
+}
+
+.images-container {
+    width: 100%;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.tabela_info .odd_row {
+    background-color: #fff;
+}
+
+.tabela_info .even_row {
+    background-color: #82c3ff;
+}
+
+.tabela_info {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+}
+
+.tabela_info th, .tabela_info td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.label-image {
+    width: 18pt;
+    height: 18pt;
+    vertical-align: baseline;
+}
+
+.tabela_wyboru .odd_row {
+    background-color: #fff;
+}
+
+.tabela_wyboru .even_row {
+    background-color: #82c3ff;
+}
+
+.tabela_wyboru {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+}
+
+.tabela_wyboru th,
+.tabela_wyboru td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.tabela_wyboru tr:hover:nth-child(even) :not(.table-heading) {
+    background-color: #ececec;
+}
+
+.tabela_wyboru tr:hover:nth-child(odd) :not(.table-heading) {
+    background-color: #aed7fd;
+}
+
+.tabela_wyboru {
+    width: 100%;
+}
+
+.tabela_wyboru {
+    border: none;
+    text-align: center;
+}

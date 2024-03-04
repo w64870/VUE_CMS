@@ -1,0 +1,83 @@
+<script>
+
+//
+(function($, navigator) {
+
+    $(function() {
+
+        var isInternetExplorer6 = /msie|MSIE 6/.test(navigator.userAgent);
+        var isIEEmbeddedCompact7 =  /IEMobile\/7.0/.test(navigator.userAgent);
+        var isWindowsCE = /Windows CE/.test(navigator.userAgent);
+
+        // tymczasowe rozwiązanie, TODO: RWD
+        var isAndroid = /Android/.test(navigator.userAgent); 
+        
+        var styleDirectory = 'mes';
+
+        //$('#id_theme').attr('href', 'css/' + styleDirectory + '/theme.css');
+        //$('#id_custom_theme').attr('href', 'css/' + styleDirectory + '/custom_classes.css');
+
+    });
+    
+    
+    $(function() {
+
+        var currentDateSpan = $('#id_current_date');
+
+        setInterval(function() {
+
+            var date = new Date();
+            var year = date.getFullYear();
+            var month = date.getMonth() + 1;
+            var day = date.getDate();
+            var hour = date.getHours();
+            var minutes = date.getMinutes();
+            var seconds = date.getSeconds();
+
+            month = month < 10 ? '0' + month : month;
+            day = day < 10 ? '0' + day : day;
+            hour = hour < 10 ? '0' + hour : hour;
+            minutes = minutes < 10 ? '0' + minutes : minutes;
+            seconds = seconds < 10 ? '0' + seconds : seconds;
+
+            currentDateSpan.html(year + '-' + month + '-' + day + ' ' + hour + ':' + minutes + ':' + seconds);
+
+        }, 1000);
+
+    });
+    
+
+	//
+	function enter(nast)
+	{
+	    var code = event.keyCode || event.which;
+	
+	    if (/msie|MSIE 6/.test(navigator.userAgent))
+	    {
+	        if (event.keyCode === 13)
+	        {
+	            event.keyCode = 9;
+	        }
+	    }
+	    else
+	    {
+	        if (code === 13)
+	        {
+	            $('[tabindex="' + nast.toString() + '"]').focus().select();
+	            event.returnValue = false;
+	
+	            if (event.preventDefault)
+	            {
+	                event.preventDefault();
+	            }
+	
+	            return false;
+	        }
+	    }
+	}
+
+}(jQuery, navigator));
+
+	
+
+</script>

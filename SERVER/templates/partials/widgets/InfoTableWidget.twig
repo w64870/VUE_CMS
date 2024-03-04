@@ -1,0 +1,31 @@
+	
+	<table class="tabela_info" cellspacing="0" cellpadding="0">
+        <thead>
+            <tr>
+            	{% for header in element.content.headers %}    
+               		{% if header != 'id_g' %}
+                	<th class="table-heading">{{ header|initcap  }}</th>
+					{% endif %}
+                {% endfor %}
+            </tr>
+        </thead>
+        <tbody>
+        
+        	{% for i, row in element.content.rows %}
+        	
+        	{% if i%2 == 0 %}
+            <tr class="even_row">
+            {% else %}
+            <tr class="odd_row">
+            {% endif %}
+        
+            	{% for key, value in row %}
+                	{% if key != 'id_g' %}
+                    <td>{{ value|sbtoab|raw }}</td>
+                    {% endif %}
+                {% endfor %}
+            
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>

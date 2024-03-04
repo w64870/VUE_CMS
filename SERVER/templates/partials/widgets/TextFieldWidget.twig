@@ -1,0 +1,14 @@
+
+	<input
+        type="text"
+        id="{{ element.idAttribute }}"
+        name="{{ element.nameAttribute }}"
+        value="{{ element.value }}"
+        tabindex="{{ element.tabIndex }}"
+        class="pole_tekstowe {{element.classAttribute}}"
+        style="{{ element.styleAttribute }}"
+        minlength="{{ element.minLength }}"
+        maxlength="{{ element.maxLength }}"
+        required="{{ element.minLength > 0 }}"
+        {{ element.otherAttributes|raw  }} 
+    />

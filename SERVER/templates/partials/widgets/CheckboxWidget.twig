@@ -1,0 +1,37 @@
+          
+	<div>
+		{% set uncheckedId = "#{element.idAttribute}_hidden"  %}
+		<input 
+			type="hidden" 
+			id="{{ uncheckedId }}" 
+			name="{{ element.nameAttribute }}" 
+			value="false"
+		>
+        <label
+            class="etykieta {{ element.classAttribute }}"
+            style="{{ element.styleAttribute }}"
+        >
+            <input
+                type="checkbox"
+                class="checkbox-single"
+                id="{{ element.idAttribute }}"
+                name="{{ element.nameAttribute }}"
+                value="true"
+                tabindex="{{ element.tabIndex }}" 
+                {% if element.value %} checked {% endif %}
+                {{ element.otherAttributes|raw  }} 
+                onclick="singleCheckboxClick(this, '{{ uncheckedId }}' );"
+            >
+            &nbsp;
+            {{ element.label }}
+        </label>
+        
+        <script>
+			if(document.getElementById('{{ element.idAttribute }}').checked) {
+        		document.getElementById('{{ uncheckedId }}').disabled = true;
+            } else {
+            	document.getElementById('{{ uncheckedId }}').disabled = false;
+            }
+        </script>
+    </div>
+    

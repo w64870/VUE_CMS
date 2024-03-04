@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>{% block title %}{% endblock %}</title>
+        
+    	<link rel="stylesheet" type="text/css" href="{{ base_url() }}/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="{{ base_url() }}/css/powiadomienia/style_classes.css">
+        <link rel="stylesheet" type="text/css" href="{{ base_url() }}/css/powiadomienia/style.css">
+            
+        <link id="id_theme" type="text/css" rel="stylesheet" href="{{ base_url() }}/css/mes/theme.css">
+        <link id="id_custom_theme" type="text/css" rel="stylesheet" href="{{ base_url() }}/css/mes/custom_classes.css">
+        
+        
+        {% block styles %}{% endblock %}
+        
+        <link rel="shortcut icon" href="{{ base_url() }}/favicon.ico">
+        
+        <link rel="stylesheet" href="{{ base_url() }}/js/vendor/jquery/jquery-ui.min.css?v1.0">
+        <script src="{{ base_url() }}/js/vendor/jquery/jquery.js?v1.0"></script>
+        <script src="{{ base_url() }}/js/vendor/jquery/jquery-ui.min.js?v1.0"></script>
+        <script src="{{ base_url() }}/js/vendor/jquery/jquery.ui.datepicker-pl.js?v1.0"></script>
+
+        <script src="{{ base_url() }}/js/vendor/moment/moment.min.js"></script>
+        
+    	<!-- datetimepicker-begin -->  
+        <link type="text/css" rel="stylesheet" href="{{ base_url() }}/js/vendor/trentrichardson/jQuery-Timepicker-Addon/jquery-ui-timepicker-addon.css">
+        <script src="{{ base_url() }}/js/vendor/trentrichardson/jQuery-Timepicker-Addon/jquery-ui-timepicker-addon.js"></script>
+        <script src="{{ base_url() }}/js/vendor/trentrichardson/jQuery-Timepicker-Addon/jquery-ui-sliderAccess.js"></script>
+        <script src="{{ base_url() }}/js/vendor/trentrichardson/jQuery-Timepicker-Addon/jquery-ui-timepicker-pl.js"></script>
+    	<!-- datetimepicker-end -->
+    	
+    	{% if isMobileScanner %}
+        	<script type="text/javascript" src="{{ base_url() }}/js/vendor/amcharts/amcharts.js"></script>
+        {% endif %}
+        
+        {% include 'partials/scripts/onload.twig' %}
+    
+        {% block headerScripts %}{% endblock %}
+        
+    </head>
+    <body class="{% block bodyClass %}{% endblock %}">
+		
+        <div id="tooltip" class="tooltip"></div>  <!-- warstwa dla "dymkow podpowiedzi" -->
+        
+        <a name="top"></a>
+        {% block content %}{% endblock %}
+        <a name="bottom"></a>
+
+		<script src="{{ base_url() }}/js/functions.js"></script>
+    	
+    	{% block footerScripts %}{% endblock %}
+    	
+    </body>
+</html>

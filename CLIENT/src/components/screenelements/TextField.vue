@@ -1,0 +1,58 @@
+<template>
+    <b-form-input
+        ref="input"
+        type="text"
+        class="pole_tekstowe"
+        :id="element.idAttribute"
+        :name="element.nameAttribute"
+        :value="value"
+        :tabindex="element.tabIndex"
+        :class="element.classAttribute"
+        :style="getStyles(element.styleAttribute)"
+        v-model="formValues[element.nameAttribute]"
+        :clearContent="clearContent"
+        :autocomplete="autoComplete"
+        v-b-tooltip.hover.topright :title="element.tooltip"
+    />
+</template>
+
+
+<script>
+import AppHelper from "../../helpers/AppHelper.js";
+
+export default {
+    name: "TextField",
+    props: ["element", "formValues", "isActive"],
+    components: {},
+    data: function() {
+        return {
+            value: this.element.value,
+            clearContent: "",
+            autoComplete: CONFIG.AutoComplete,
+            attributes: AppHelper.getAttributes(this.element.otherAttributes)
+        };
+    },
+    methods: {
+        getStyles: function(text) {
+            let styles = AppHelper.getStyles(text);
+            return styles;
+        },
+        findAttribute: function(attributes, attr) {
+            return AppHelper.findAttribute(attributes, attr);
+        }
+    },
+    created: function() {
+        this.value = this.element.value;
+        this.clearContent = this.element.clearContent ? "Tak" : "Nie";
+    },
+    mounted: function() {
+        if (this.isActive) {
+            this.$refs.input.focus();
+        }
+    }
+};
+</script>
+
+
+<style scoped>
+</style>

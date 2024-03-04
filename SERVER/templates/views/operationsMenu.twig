@@ -1,0 +1,68 @@
+{% extends "base.twig" %}
+
+{% block title %}
+    {{ page_title }}
+{% endblock %}
+
+{% block headerScripts %}
+    {% include 'partials/scripts/headerscript.twig' %}
+{% endblock %}
+
+{% block content %}
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+
+    <tr>
+        <td align="center">
+
+            <table border="0" width="100%" cellspacing="0" cellpadding="0">
+            
+            	{% if error %}
+			    <tr>
+				    <td>
+				    {% include 'partials/messages/error.twig' %}	
+				    </td>
+			    </tr>
+				{% endif %}
+            	
+            	{% if user_description %}
+            	<tr>
+                    <td align="center" style="font-weight: bold; color: blue">{{ user_description }}</td>
+                </tr>
+                <tr><td>&nbsp;</td></tr>
+            	{% endif %}
+
+            	{% for operation in operations %}
+            	<tr>
+                    <form name="operacje_form" action="{{ operation_url }}/{{ operation.id }}" method="post">
+                        <td align="center">
+                            <input type="hidden" name="id" value="{{ operation.id }}">
+                            <input style="background: {{ operation.buttonColor }}; 
+                                          color: {{ operation.buttonTextColor }};" 
+                                   class="input_operacja" 
+                                   type="submit" 
+                                   value="{{ operation.description }}">
+                        </td>
+                    </form>
+                </tr>
+            	{% endfor %}
+    
+                <tr><td>&nbsp;</td></tr>
+
+                <tr>
+                    <td align="center">
+                        <a class="menu_link" href="{{ logout_url }}">Wyloguj</a>
+                    </td>
+                </tr>
+                
+                <tr><td>&nbsp;</td></tr>
+                <tr><td align="center" class="small_text">Wersja CMS: {{ version }}</tr>
+                <tr><td align="center" class="small_text">IP: {{ ip }}</tr>
+
+            </table>
+
+        </td>
+    </tr>
+
+</table>
+{% endblock %}
+

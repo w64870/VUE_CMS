@@ -1,0 +1,47 @@
+
+	<div class="debug">	
+		<table>
+	        <thead>
+	            <tr>
+	                <th colspan="2">Baza danych</th>
+	            </tr>
+	        </thead>
+	        <tbody>
+	        	{% if operation.db_info.host %}
+	            <tr>
+	                <td>Host:</td>
+	                <td>{{ operation.db_info.host }}</td>
+	            </tr>
+	            {% endif %}
+	            
+	            {% if operation.db_info.port %}
+	            <tr>
+	                <td>Port:</td>
+	                <td>{{ operation.db_info.port }}</td>
+	            </tr>
+	            {% endif %}
+	            
+	            {% if operation.db_info.sid %}
+	            <tr>
+	                <td>SID:</td>
+	                <td>{{ operation.db_info.sid }}</td>
+	            </tr>
+	            {% endif %}
+	            
+	            {% if operation.db_info.alias %}
+	            <tr>
+	                <td>Alias:</td>
+	                <td>{{ operation.db_info.alias }}</td>
+	            </tr>
+	            {% endif %}
+	            
+	            {% if operation.db_info.username %}
+	            <tr>
+	                <td>Użytkownik:</td>
+	                <td>{{ operation.db_info.username }}</td>
+	            </tr>
+	            {% endif %}
+	        </tbody>
+	    </table>
+	</div>
+	

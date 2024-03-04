@@ -1,0 +1,44 @@
+
+{% if element.type == 'BUTTON' %}
+	{% include 'partials/widgets/ButtonWidget.twig' %}
+	
+{% elseif element.type == 'CHECKBOX' %}
+	{% include 'partials/widgets/CheckboxWidget.twig' %}
+
+{% elseif element.type == 'CLOCK' %}
+	{% include 'partials/widgets/ClockWidget.twig' %}
+
+{% elseif element.type == 'HTML' %}
+	{% include 'partials/widgets/HtmlWidget.twig' %}
+
+{% elseif element.type == 'INFO' %}
+	{% include 'partials/widgets/InfoTableWidget.twig' %}
+
+{% elseif element.type == 'JS' %}
+	{% include 'partials/widgets/JsScriptWidget.twig' %}
+	
+{% elseif element.type == 'LABEL' %}
+	{% include 'partials/widgets/LabelWidget.twig' %}
+ś
+{% elseif element.type == 'LIST' %}
+	{% include 'partials/widgets/ListWidget.twig' %}
+
+{% elseif element.type == 'NUMBER' %}
+	{% include 'partials/widgets/NumberFieldWidget.twig' %}
+
+{% elseif element.type == 'PRINT' %}ś
+	{% include 'partials/widgets/PrintButtonWidget.twig' %}
+
+{% elseif element.type == 'TABELA_CHECKBOX' %}
+	{% include 'partials/widgets/TableWidget.twig' %}
+
+{% elseif element.type == 'TABELA' %}
+	{% include 'partials/widgets/TableWidget.twig' %}
+
+{% elseif element.type == 'TEXT' %}
+	{% include 'partials/widgets/TextFieldWidget.twig' %}
+
+{% elseif element.type == 'VAL' %}
+	{% include 'partials/widgets/HiddenValueWidget.twig' %}
+     
+{% endif %}
