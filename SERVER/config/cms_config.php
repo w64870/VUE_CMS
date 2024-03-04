@@ -2,12 +2,12 @@
 
 return [
     'baza_danych' => [
-        'host' 		    => '127.0.0.1',
-        'port'          => '1521',
-        'sid'           => 'orcl',
+        'host' 		    => '',
+        'port'          => '',
+        'sid'           => '',
         'alias'         => '',
-        'uzytkownik'    => 'sys',
-        'haslo' 	    => 'haslo',
+        'uzytkownik'    => '',
+        'haslo' 	    => '',
     ],
     'strona_logowania' => [
         'sciezka_do_pliku_logo' => '',
